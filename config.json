@@ -1,0 +1,32 @@
+{
+    "name"       : "Вложенные файлы",
+    "guid"       : "asc.{AEEA9A33-24BC-50F5-E795-18D8404D9946}",
+    "baseUrl"    : "",
+    "variations" : [
+        {
+            "description"         : "Просмотр и сохранение вложенных файлов",
+            "url"                 : "index.html",
+            "icons"               : ["resources/img/icon.png", "resources/img/icon@2x.png"],
+			"isViewer"            : false,
+            "EditorsSupport"	  : [ "word", "cell", "slide" ],
+			"isDisplayedInViewer" : true,
+			"isSystem"			  : false,
+            "isVisual"            : true,
+            "isModal"             : true,
+            "isInsideMode"        : false,
+            "initDataType"        : "none",
+			"initOnSelectionChanged": true,
+            "initData"            : "",
+            "buttons"        : [
+                {
+                    "text": "ОК",
+                    "primary": true,
+                    "textLocale": {
+                        "ru": "ОК"
+                    }
+                }
+			],
+			"size": [ 305, 305 ]
+        }
+    ]
+}

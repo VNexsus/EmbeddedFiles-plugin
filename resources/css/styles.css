@@ -1,0 +1,40 @@
+body{
+	color: var(--text-normal)!important;
+	background: var(--background-normal)!important;
+    padding: 8px;
+}
+
+#contents{
+	height: 291px;
+    overflow-y: auto;
+    padding: 5px;
+}
+
+.item{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+	cursor: pointer;
+	margin-bottom: 0.45rem;
+}
+
+.item:last-child{
+	margin-bottom: 0;
+}
+
+.icon{
+    margin: 0 0.5rem 0 0;
+	min-width: 0.75em;
+}
+
+.ellipsis:before {
+    float: right;
+    content: attr(data-tail);
+}
+
+.ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+	margin-top: 3px;
+}
