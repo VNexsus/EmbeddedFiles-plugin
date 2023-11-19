@@ -12,7 +12,7 @@
 *	Десктоп приложение редактора
 
 ## Как установить
-*	Для установки плагина скачайте файл <a href="https://github.com/VNexsus/EmbeddedFiles-plugin/blob/main/EmbeddedFiles.plugin">EmbeddedFiles.plugin</a> следуйте инструкциям на сайте <a href="https://support.r7-office.ru/desktop_editors/api_desktop_editors/api_desktop_editors_general/adding-plugins/">Р7-Офиc</a>
+*	Для установки плагина скачайте файл <a href="https://github.com/VNexsus/EmbeddedFiles-plugin/blob/main/EmbeddedFiles.zip">EmbeddedFiles.zip</a>, распакуйте архив. В архиве два плагина: Плагин просмотра и сохранения вложенных в документ файлов в редакторах Р7-Офис (для всех типов редакторов), Плагин сохранения вложенных в документ файлов в редакторах Р7-Офис через контекстное меню (ТОЛЬКО для текстового редактора с версии 7.4). Выберите вариант, подходящий для вас и для его установки следуйте инструкциям на сайте <a href="https://support.r7-office.ru/desktop_editors/api_desktop_editors/api_desktop_editors_general/adding-plugins/">Р7-Офиc</a>
 
 ## Использованные компоненты
 * JQuery <a href="https://github.com/jquery/jquery">(GitHub)</a>
